@@ -1,7 +1,6 @@
 import { Component } from "@angular/core";
 import {
   trigger,
-  state,
   style,
   transition,
   animate,
@@ -123,16 +122,3 @@ const routes = routerAnimationGenerator(5);
   ]
 })
 export class AppComponent {}
-/* animate(
-          5000,
-          keyframes([
-            style({
-              offset: 0.5,
-              transform: "scale(0.7)"
-            }),
-            style({
-              offset: 1,
-              transform: "translateX(-100%) scale(0.7)"
-            })
-          ])
-        )*/
